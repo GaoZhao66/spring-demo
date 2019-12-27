@@ -114,8 +114,7 @@ public abstract class FastFileUtils {
             return null;
         }
         //1 生成临时文件
-        File tempFile = new File(
-                String.format(sourceFile.getOriginalFilename()));
+        File tempFile = new File(String.format(sourceFile.getOriginalFilename()));
         //2 将MultipartFile写入临时文件
         try {
             FileUtils.copyInputStreamToFile(sourceFile.getInputStream(), tempFile);

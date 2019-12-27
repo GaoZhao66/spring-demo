@@ -1,14 +1,14 @@
 package com.cmb.file.updatefile.constant;
 
 /**     
- * chengyangbing special annotation
+ * gaozhao special annotation
  * @Package:      com.cmb.mkw.common.constants
  * @FileName:     BaseConstant.java
  * @ClassName:    BaseConstant     
  * @Description:  基础产量定义
- * @Author:       chengyangbing    
+ * @Author:       gaozhao
  * @CreateDate:   2019-09-17 15:59     
- * @UpdateUser:   chengyangbing     
+ * @UpdateUser:   gaozhao
  * @UpdateDate:   2019-09-17 15:59     
  * @UpdateRemark: 说明本次修改内容    
  * @Version:      v1.0   

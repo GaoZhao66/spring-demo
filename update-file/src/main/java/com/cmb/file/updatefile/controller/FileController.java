@@ -39,7 +39,7 @@ public class FileController {
     FileBusiness fileBusiness;
 
     /**
-     * chengyangbing special annotation
+     * gaozhao special annotation
      *
      * @param file 文件
      * @return v
@@ -66,7 +66,7 @@ public class FileController {
     }
 
     /**
-     * chengyangbing special annotation
+     * gaozhao special annotation
      *
      * @param fileKey 文件Key
      * @return v
@@ -83,7 +83,7 @@ public class FileController {
         }
         //2 Base64反转文件
         File base64File = FastFileUtils.toFile(fileEntity.getValue());
-        //3 将文件写出
+        //3 将文件写出-
         try (FileInputStream inputStream = new FileInputStream(base64File)) {
             int readCount;
             byte[] buffer = new byte[4096];

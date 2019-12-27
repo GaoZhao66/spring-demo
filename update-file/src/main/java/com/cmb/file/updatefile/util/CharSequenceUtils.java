@@ -1,6 +1,6 @@
 package com.cmb.file.updatefile.util;
 
-public abstract class CharSequenceUtils {
+public class CharSequenceUtils {
     public CharSequenceUtils() {
     }
 

@@ -5,7 +5,7 @@ import com.cmb.file.updatefile.domain.entity.FileEntity;
 import java.io.File;
 
 /**
- * chengyangbing special annotation
+ * gaozhao special annotation
  *
  * @Package:        com.cmb.hbx.business
  * @FileName:       FileBusiness.java
@@ -21,7 +21,7 @@ import java.io.File;
 public interface FileBusiness {
 
     /**
-     * chengyangbing special annotation
+     * gaozhao special annotation
      *
      * @param fileKey 文件键值
      * @return v
@@ -32,7 +32,7 @@ public interface FileBusiness {
     FileEntity getFile(String fileKey);
 
     /**
-     * chengyangbing special annotation
+     * gaozhao special annotation
      *F
      * @param name 文件名称
      * @param size 文件大小

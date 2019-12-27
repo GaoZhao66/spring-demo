@@ -13,15 +13,15 @@ import org.springframework.stereotype.Service;
 import java.io.File;
 
 /**
- * chengyangbing special annotation
+ * gaozhao special annotation
  *
  * @Package: com.cmb.hbx.business.impl
  * @FileName: FileBusinessImpl.java
  * @ClassName: FileBusinessImpl
  * @Description: 文件业务层实现
- * @Author: chengyangbing
+ * @Author: gaozhao
  * @CreateDate: 2019/12/23 6:41 PM
- * @UpdateUser: chengyangbing
+ * @UpdateUser: gaozhao
  * @UpdateDate: 2019/12/23 6:41 PM
  * @UpdateRemark: 说明本次修改内容
  * @Version: v1.0
