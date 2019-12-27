@@ -1,0 +1,17 @@
+server:
+  port: 8004
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&serverTimezone=UTC
+
+
+
+file:
+  base-url: localhost:8004/getFile/
+mybatis:
+  mapper-locations: classpath:mapper/*.xml  #mapper的xml文件位置
+#  type-aliases-package:                           #配置xml文件中resultType返回值的包位置
