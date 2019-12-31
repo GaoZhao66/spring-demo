@@ -1,9 +1,0 @@
-server:
-  port: 8082
-
-# spring security
-spring:
-  security:
-     user:
-       name: gaozhao
-       password: 123456
