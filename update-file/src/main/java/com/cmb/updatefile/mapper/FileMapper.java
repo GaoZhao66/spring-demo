@@ -1,6 +1,6 @@
-package com.cmb.file.updatefile.mapper;
+package com.cmb.updatefile.mapper;
 
-import com.cmb.file.updatefile.domain.entity.FileEntity;
+import com.cmb.updatefile.domain.entity.FileEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

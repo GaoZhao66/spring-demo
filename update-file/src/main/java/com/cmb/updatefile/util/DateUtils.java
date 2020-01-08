@@ -1,4 +1,4 @@
-package com.cmb.file.updatefile.util;
+package com.cmb.updatefile.util;
 
 import java.sql.Timestamp;
 import java.text.ParseException;

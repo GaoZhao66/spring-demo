@@ -1,10 +1,10 @@
-package com.cmb.file.updatefile.controller;
+package com.cmb.updatefile.controller;
 
 
-import com.cmb.file.updatefile.business.FileBusiness;
-import com.cmb.file.updatefile.domain.entity.FileEntity;
-import com.cmb.file.updatefile.domain.view.UploadFileView;
-import com.cmb.file.updatefile.util.FastFileUtils;
+import com.cmb.updatefile.business.FileBusiness;
+import com.cmb.updatefile.domain.entity.FileEntity;
+import com.cmb.updatefile.domain.view.UploadFileView;
+import com.cmb.updatefile.util.FastFileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.*;

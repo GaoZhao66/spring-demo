@@ -1,4 +1,4 @@
-package com.cmb.file.updatefile.util;
+package com.cmb.updatefile.util;
 
 import java.util.UUID;
 import java.util.concurrent.ThreadLocalRandom;

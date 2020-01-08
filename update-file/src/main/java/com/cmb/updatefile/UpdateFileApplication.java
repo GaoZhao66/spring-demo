@@ -1,4 +1,4 @@
-package com.cmb.file.updatefile;
+package com.cmb.updatefile;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

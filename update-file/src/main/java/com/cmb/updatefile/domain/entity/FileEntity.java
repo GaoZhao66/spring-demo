@@ -1,4 +1,4 @@
-package com.cmb.file.updatefile.domain.entity;
+package com.cmb.updatefile.domain.entity;
 
 import lombok.Data;
 

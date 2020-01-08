@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.cmb.file.updatefile.mapper.FileMapper">
+<mapper namespace="com.cmb.updatefile.mapper.FileMapper">
 
     <!-- 活动表名 -->
     <sql id="fileTableName">
@@ -8,7 +8,7 @@
     </sql>
 
     <!-- 新增文件 -->
-    <insert id="addFile" parameterType="com.cmb.file.updatefile.domain.entity.FileEntity">
+    <insert id="addFile" parameterType="com.cmb.updatefile.domain.entity.FileEntity">
         INSERT INTO
         <include refid="fileTableName"/>
         (
@@ -25,7 +25,7 @@
     </insert>
 
     <!-- 获取文件 -->
-    <select id="getFileByKey" parameterType="java.lang.String" resultType="com.cmb.file.updatefile.domain.entity.FileEntity">
+    <select id="getFileByKey" parameterType="java.lang.String" resultType="com.cmb.updatefile.domain.entity.FileEntity">
         SELECT
         `key` AS "key",
         `name` AS "name",

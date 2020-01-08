@@ -1,4 +1,4 @@
-package com.cmb.file.updatefile.constant;
+package com.cmb.updatefile.constant;
 
 /**     
  * gaozhao special annotation

@@ -1,6 +1,6 @@
-package com.cmb.file.updatefile.domain.view;
+package com.cmb.updatefile.domain.view;
 
-import com.cmb.file.updatefile.domain.entity.BaseView;
+import com.cmb.updatefile.domain.entity.BaseView;
 import lombok.Data;
 
 /**

@@ -1,11 +1,11 @@
-package com.cmb.file.updatefile.business.impl;
+package com.cmb.updatefile.business.impl;
 
-import com.cmb.file.updatefile.business.FileBusiness;
-import com.cmb.file.updatefile.domain.entity.FileEntity;
-import com.cmb.file.updatefile.exception.FileException;
-import com.cmb.file.updatefile.mapper.FileMapper;
-import com.cmb.file.updatefile.util.FastFileUtils;
-import com.cmb.file.updatefile.util.UUIDUtils;
+import com.cmb.updatefile.business.FileBusiness;
+import com.cmb.updatefile.domain.entity.FileEntity;
+import com.cmb.updatefile.exception.FileException;
+import com.cmb.updatefile.mapper.FileMapper;
+import com.cmb.updatefile.util.FastFileUtils;
+import com.cmb.updatefile.util.UUIDUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

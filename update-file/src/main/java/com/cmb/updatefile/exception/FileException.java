@@ -1,4 +1,4 @@
-package com.cmb.file.updatefile.exception;
+package com.cmb.updatefile.exception;
 
 import lombok.Getter;
 

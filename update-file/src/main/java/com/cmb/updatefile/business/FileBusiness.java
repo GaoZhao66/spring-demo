@@ -1,6 +1,6 @@
-package com.cmb.file.updatefile.business;
+package com.cmb.updatefile.business;
 
-import com.cmb.file.updatefile.domain.entity.FileEntity;
+import com.cmb.updatefile.domain.entity.FileEntity;
 
 import java.io.File;
 

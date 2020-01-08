@@ -1,8 +1,8 @@
-package com.cmb.file.updatefile.domain.entity;
+package com.cmb.updatefile.domain.entity;
 
-import com.cmb.file.updatefile.constant.Constant;
-import com.cmb.file.updatefile.util.DateUtils;
-import com.cmb.file.updatefile.util.UUIDUtils;
+import com.cmb.updatefile.constant.Constant;
+import com.cmb.updatefile.util.DateUtils;
+import com.cmb.updatefile.util.UUIDUtils;
 import lombok.Data;
 
 import java.io.Serializable;
